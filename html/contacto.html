@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Día de la autora</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <style>
+        body {
+            background-image: url('../imgs/fondo.jpg');
+            background-size: cover; 
+            background-position: center; 
+        }
+    </style>
+</head>
+<body>
+    <header class="cabecera">
+        <div>
+            <img src="../imgs/Icono.jpg" alt="Icono libro">
+            <a href="../html/home.html">HOME</a>
+            <a href="../html/contacto.html">CONTACTO</a>
+        </div>
+    </header>
+    <main>
+        <div class="formulario">
+            <h2>Formulario de Contacto</h2>
+            <form method="post" id="formdata">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <label for="apellidos">Apellido/s:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </main>
+    <footer class="footer-general">
+        <p>© 2024 nahidev</p>
+    </footer>
+</body>
+</html>
